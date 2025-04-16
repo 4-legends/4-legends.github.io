@@ -1,0 +1,15 @@
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/home/unitx/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/unitx/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20250403-32412-ios5el.rb extconf.rb
+creating Makefile
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -m 0755 cparse.so ./.gem.20250403-32412-pe5t4h/racc

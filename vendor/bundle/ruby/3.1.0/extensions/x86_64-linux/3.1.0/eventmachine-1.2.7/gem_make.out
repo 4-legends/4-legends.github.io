@@ -1,0 +1,16 @@
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/unitx/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/unitx/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20250403-32412-ks37gt.rb extconf.rb
+creating Makefile
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20250403-32412-vn0w7l

@@ -1,0 +1,63 @@
+/* Theme transition styles */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #141010;
+  --global-text-color: #eaeaea;
+  --global-link-color: #00adb5;
+  --global-link-color-hover: #00c4cd;
+  --global-masthead-link-color: #eaeaea;
+  --global-masthead-link-color-hover: #00adb5;
+  --global-border-color: #2a2a2a;
+  --global-footer-bg-color: #000000;
+  --social-icons-color: #eaeaea;
+}
+
+html:not([data-theme="dark"]) {
+  --global-bg-color: #ffffff;
+  --global-text-color: #333333;
+  --global-link-color: #2a7ae2;
+  --global-link-color-hover: #1a5ac9;
+  --global-masthead-link-color: #333333;
+  --global-masthead-link-color-hover: #2a7ae2;
+  --global-border-color: #eaeaea;
+  --global-footer-bg-color: #f2f3f3;
+  --social-icons-color: #333333;
+}
+
+/* Social icons color */
+.author__urls.social-icons .fa,
+.author__urls.social-icons .fab,
+.author__urls.social-icons .fas,
+.author__urls.social-icons .far {
+  color: var(--social-icons-color);
+}
+
+.author__urls.social-icons .fa:hover,
+.author__urls.social-icons .fab:hover,
+.author__urls.social-icons .fas:hover,
+.author__urls.social-icons .far:hover {
+  color: var(--global-link-color);
+}
+
+/* Theme toggle button styles */
+#theme-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background-color: var(--global-border-color);
+}
+
+#theme-icon {
+  transition: transform 0.3s ease;
+}
+
+#theme-toggle:hover #theme-icon {
+  transform: rotate(15deg);
+}

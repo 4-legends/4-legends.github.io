@@ -1,0 +1,21 @@
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+/home/unitx/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/unitx/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20250403-32412-v04nsk.rb extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= clean
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\=
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+current directory: /home/unitx/Desktop/Paresh/github/4-legends.github.io/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= install
+/usr/bin/install -m 0755 parser.so ./.gem.20250403-32412-y6cexe/json/ext
